@@ -1,0 +1,13 @@
+.p-profile {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-profile__message {
+  font-size: 2em;
+  font-family: 'KleeOne-SemiBold';
+  margin: 1em 0;
+}

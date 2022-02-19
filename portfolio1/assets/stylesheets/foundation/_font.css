@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "NotoSansJP-Regular";
+  src: url("../../fonts/NotoSansJP/NotoSansJP-Regular.otf");
+}
+
+@font-face {
+  font-family: "NotoSansJP-Light";
+  src: url("../../fonts/NotoSansJP/NotoSansJP-Light.otf");
+}
+
+@font-face {
+  font-family: "NotoSansJP-Thin";
+  src: url("../../fonts/NotoSansJP/NotoSansJP-Thin.otf");
+}
+
+@font-face {
+  font-family: "KleeOne-Regular";
+  src: url("../../fonts/KleeOne/KleeOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "KleeOne-SemiBold";
+  src: url("../../fonts/KleeOne/KleeOne-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "DotGothic16-Regular";
+  src: url("../../fonts/DotGothic16/DotGothic16-Regular.ttf");
+}

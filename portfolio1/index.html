@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="expires" content="604800">
+    <meta name="format-detection" content="email=no,telephone=no,address=no">
+    <title>My first Portfolio</title>
+    <meta name="description" content="自己紹介ページ">
+    <link rel="icon" href="assets/images/common/favicon.ico">
+    <link rel="stylesheet" href="assets/stylesheets/app.css">
+  </head>
+  <body>
+    <header>
+      <nav role="shortcut">
+        <div class="l-header">
+          <ul class="p-shortcut" id="shortcut">
+            <li class="p-shortcut__btnWrapper">
+              <input type="button" value="HOME" class="p-shortcut__btn" id="homeBtn">
+            </li>
+            <li class="p-shortcut__btnWrapper">
+              <input type="button" value="PROFILE" class="p-shortcut__btn" id="profileBtn">
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="l-wrapper">
+        <div class="p-enter" id="enter">
+          <p class="p-enter__title">PRESS ENTER KEY</p>
+          <input type="button" class="p-enter__button" id="enterBtn" value="ボタン可視用 仮メッセージ" autofocus></input>
+        </div>
+        <div class="p-home" id="home">
+          <div class="p-home__container">
+            <img class="p-home__logo" src="assets/images/common/logo.png" alt="ロゴ">
+          </div>
+          <div class="p-home__container">
+            <h1 class="p-home__heading" id="heading">Welcome to my first Portfolio!</h1>
+            <h2 class="p-home__name" id="name">Ryoma Suzuki</h2>
+            <p class="p-home__message" id="homeMessage">初めて作るポートフォリオサイトです。<br>jsにゴリ押しが多すぎると自覚してます。<br>効率的に書けるようになりたいです。</p>
+          </div>
+        </div>
+        <div class="p-profile" id="profile">
+          <p class="p-profile__message" id="message1">1996年生まれ、25歳。愛知県出身。</p>
+          <p class="p-profile__message" id="message2">高校留学を経て、大学を二度も中退。</p></p>
+          <p class="p-profile__message" id="message3">「豊かな人生を送りたい訳じゃないけど、不自由な人生は過ごしたくない。」</p>
+          <p class="p-profile__message" id="message4">そんな考え方で生きてます。</p>
+        </div>
+      </div>
+    </main>
+    <script src="assets/javascripts/index.js"></script>
+  </body>
+</html>

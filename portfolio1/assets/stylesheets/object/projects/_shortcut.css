@@ -1,0 +1,31 @@
+.p-shortcut {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-shortcut__btnWrapper {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.p-shortcut__btnWrapper:hover {
+  background-color: rgba(100, 100, 100, 1);
+  transition: all 0.5s ease;
+}
+
+.p-shortcut__btn {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  font: 1.5em 'NotoSansJP-Regular';
+  color: #bfbfbf;
+  border: none;
+}

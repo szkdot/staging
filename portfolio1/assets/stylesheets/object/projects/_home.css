@@ -1,0 +1,28 @@
+.p-home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-home__container {
+  margin: 0 1em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p-home__heading {
+  font-size: 2em;
+}
+
+.p-home__name {
+  font-size: 3.5em;
+  margin: 0.25em 0 0.5em 0;
+}
+
+.p-home__message {
+  font-family: 'NotoSansJP-Thin';
+  font-size: 1.25em;
+}
